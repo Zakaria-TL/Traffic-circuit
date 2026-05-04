@@ -29,7 +29,9 @@ You can control the system by typing the following commands in the Serial Monito
 | `TRAM ON`      | Close barrier and set lights to Red.       |
 | `TRAM OFF`     | Open barrier and return to Auto mode.      |
 | `SET_GREEN1=X` | Force Light 1 to Green for X milliseconds. |
+| `SET_GREEN2=X` | Force Light 2 to Green for X milliseconds. |
 | `SET_RED1=X`   | Force Light 1 to Red for X milliseconds.   |
+| `SET_RED2=X`   | Force Light 2 to Red for X milliseconds.   |
 
 > **Note:** The system automatically returns to `AUTO` mode after the manual timeout expires.
 
